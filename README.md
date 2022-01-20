@@ -122,8 +122,8 @@ db.add(user_id=123, balance=100)
 ```
 
 
-# Методы edit, insert
-## insert(where=None, **items), edit(where=None, **items)
+# Методы edit, update
+## insert(where=None, **items), update(where=None, **items)
 Данные методы изменяют значения в таблице
 Аргумент `where` принимает условия замены. Для него нужно использовать либо метод `where()` либо своё условие. (str)
 Приведу пример: 
